@@ -18,6 +18,6 @@ def solution(a):
 
 
 if solution(a) == True:
-    print('true')
+    print('Correct')
 else:
-    print('false')
+    print('Incorrect')
