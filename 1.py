@@ -1,11 +1,11 @@
-a = str(input())
+number = str(input())
 
 
-def solution(a):
+def solution(number):
     stack = []
-    if a[0] == ')':
+    if number[0] == ')':
         return False
-    for i in a:
+    for i in number:
         if i == '(':
             stack.append(i)
         else:
@@ -17,7 +17,7 @@ def solution(a):
         return False
 
 
-if solution(a) == True:
+if solution(number) == True:
     print('Correct')
 else:
     print('Incorrect')
