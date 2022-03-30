@@ -18,6 +18,6 @@ def solution(a):
 
 
 if solution(a) == True:
-    print('true')
+    print('올바른 괄호')
 else:
-    print('false')
+    print('올바르지 못한 괄호')
