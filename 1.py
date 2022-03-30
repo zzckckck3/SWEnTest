@@ -1,11 +1,11 @@
-a = str(input())
+num = str(input())
 
 
-def solution(a):
+def solution(num):
     stack = []
-    if a[0] == ')':
+    if num[0] == ')':
         return False
-    for i in a:
+    for i in num:
         if i == '(':
             stack.append(i)
         else:
@@ -17,7 +17,7 @@ def solution(a):
         return False
 
 
-if solution(a) == True:
-    print('true')
+if solution(num) == True:
+    print('올바른 괄호')
 else:
-    print('false')
+    print('올바르지 못한 괄호')
